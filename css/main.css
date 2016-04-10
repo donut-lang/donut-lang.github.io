@@ -93,7 +93,14 @@ body {
   color: rgba(228, 228, 228, 1.0);
 }
 
-.donut-background > h1 {
+.donut-background > h1, .donut-background > p {
   text-shadow: 0 0 8px rgba(0,0,0,0.8),
                0 0 1em rgba(0,0,0,0.9);
+}
+
+.gsc-control-cse * {
+    box-sizing: content-box;
+}
+.gsc-input {
+    line-height: 1;
 }
